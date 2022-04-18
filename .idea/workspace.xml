@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d059f28e-57ac-4d16-ae0b-5cfce9e69bfa" name="Default Changelist" comment="" />
+    <list default="true" id="d059f28e-57ac-4d16-ae0b-5cfce9e69bfa" name="Default Changelist" comment="feat(project): 初始化项目&#10;&#10;添加 array docs">
+      <change beforePath="$PROJECT_DIR$/array/array.go" beforeDir="false" afterPath="$PROJECT_DIR$/array/array.go" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,10 +45,32 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="leetcode.id" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat(project): 初始化项目&#10;&#10;添加 array docs" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(project): 初始化项目&#10;&#10;添加 array docs" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -47,5 +80,17 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="696" y="400" key="#Go_Modules/0.0.1792.1120@0.0.1792.1120" timestamp="1650257359114" />
+    <state x="621" y="360" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1650257558702">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="621" y="360" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1650257558702" />
+    <state x="397" y="199" key="SettingsEditor" timestamp="1650258862267">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1650258862267" />
+    <state x="496" y="296" key="Vcs.Push.Dialog.v2" timestamp="1650257629354">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="496" y="296" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1650257629354" />
   </component>
 </project>
