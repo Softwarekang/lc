@@ -1,4 +1,4 @@
-package array
+package main
 
 // twoSum 题目无特殊要求有对应数值，直接返回对应 index 即可
 /*
@@ -63,18 +63,39 @@ func findMedianSortedArrays(nums1 []int, nums2 []int) float64 { // 假设 nums1 
 	return float64(midLeft+midRight) / 2
 }
 
-func max(a, b int) int {
-	if a >= b {
-		return a
-	}
-
-	return b
+type ListNode struct {
+	Val  int
+	Next *ListNode
 }
 
-func min(a, b int) int {
-	if a < b {
-		return a
+/*
+tag: 链表
+*/
+func addTwoNumbers(l1, l2 *ListNode) (head *ListNode) {
+	var tail *ListNode
+	carry := 0
+	for l1 != nil || l2 != nil {
+		n1, n2 := 0, 0
+		if l1 != nil {
+			n1 = l1.Val
+			l1 = l1.Next
+		}
+		if l2 != nil {
+			n2 = l2.Val
+			l2 = l2.Next
+		}
+		sum := n1 + n2 + carry
+		sum, carry = sum%10, sum/10
+		if head == nil {
+			head = &ListNode{Val: sum}
+			tail = head
+		} else {
+			tail.Next = &ListNode{Val: sum}
+			tail = tail.Next
+		}
 	}
-
-	return b
+	if carry > 0 {
+		tail.Next = &ListNode{Val: carry}
+	}
+	return
 }
