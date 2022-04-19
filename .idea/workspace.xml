@@ -11,6 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d059f28e-57ac-4d16-ae0b-5cfce9e69bfa" name="Default Changelist" comment="feat(array): twoSum&#10;&#10;添加 twoSum 题解">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/array/array.go" beforeDir="false" afterPath="$PROJECT_DIR$/array/array.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -67,6 +68,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat(project): 初始化项目&#10;&#10;添加 array docs" />
@@ -89,9 +91,9 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1650258862267" />
-    <state x="496" y="296" key="Vcs.Push.Dialog.v2" timestamp="1650259508806">
+    <state x="496" y="296" key="Vcs.Push.Dialog.v2" timestamp="1650259691822">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="496" y="296" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1650259508806" />
+    <state x="496" y="296" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1650259691822" />
   </component>
 </project>
