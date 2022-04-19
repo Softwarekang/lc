@@ -13,6 +13,8 @@
     <list default="true" id="d059f28e-57ac-4d16-ae0b-5cfce9e69bfa" name="Default Changelist" comment="feat(array): twoSum&#10;&#10;添加 twoSum 题解">
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strings/math.go" beforeDir="false" afterPath="$PROJECT_DIR$/strings/math.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/strings/strings.go" beforeDir="false" afterPath="$PROJECT_DIR$/strings/strings.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +56,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="leetcode.id" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go Build.go build lc/strings">
     <configuration name="go build lc/array" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="lc" />
       <working_directory value="$PROJECT_DIR$" />
@@ -64,8 +66,18 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build lc/strings" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="lc" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/strings/strings.go" />
+      <package value="lc/strings" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build lc/strings" />
         <item itemvalue="Go Build.go build lc/array" />
       </list>
     </recent_temporary>
@@ -92,7 +104,8 @@
     <MESSAGE value="findMedianSortedArrays 题解" />
     <MESSAGE value="feat:(array): findMedianSortedArrays 题解" />
     <MESSAGE value="feat:(array): addTwoNumbers 题解" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:(array): addTwoNumbers 题解" />
+    <MESSAGE value="feat:(array): shortestToChar 题解" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:(array): shortestToChar 题解" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -106,45 +119,60 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="621" y="360" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1650257558702" />
-    <state width="1601" height="977" key="GridCell.Tab.0.bottom" timestamp="1650347147837">
+    <state width="1750" height="553" key="GridCell.Tab.0.bottom" timestamp="1650375332270">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1601" height="977" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1650347147837" />
-    <state width="1601" height="977" key="GridCell.Tab.0.center" timestamp="1650347147836">
+    <state width="1750" height="553" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1650375332270" />
+    <state width="1750" height="553" key="GridCell.Tab.0.center" timestamp="1650375332269">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1601" height="977" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1650347147836" />
-    <state width="1601" height="977" key="GridCell.Tab.0.left" timestamp="1650347147835">
+    <state width="1750" height="553" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1650375332269" />
+    <state width="1750" height="553" key="GridCell.Tab.0.left" timestamp="1650375332269">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1601" height="977" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1650347147835" />
-    <state width="1601" height="977" key="GridCell.Tab.0.right" timestamp="1650347147837">
+    <state width="1750" height="553" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1650375332269" />
+    <state width="1750" height="553" key="GridCell.Tab.0.right" timestamp="1650375332269">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1601" height="977" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1650347147837" />
-    <state width="1601" height="977" key="GridCell.Tab.1.bottom" timestamp="1650347147840">
+    <state width="1750" height="553" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1650375332269" />
+    <state width="1750" height="553" key="GridCell.Tab.1.bottom" timestamp="1650375332271">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1601" height="977" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1650347147840" />
-    <state width="1601" height="977" key="GridCell.Tab.1.center" timestamp="1650347147839">
+    <state width="1750" height="553" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1650375332271" />
+    <state width="1750" height="553" key="GridCell.Tab.1.center" timestamp="1650375332271">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1601" height="977" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1650347147839" />
-    <state width="1601" height="977" key="GridCell.Tab.1.left" timestamp="1650347147838">
+    <state width="1750" height="553" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1650375332271" />
+    <state width="1750" height="553" key="GridCell.Tab.1.left" timestamp="1650375332270">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1601" height="977" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1650347147838" />
-    <state width="1601" height="977" key="GridCell.Tab.1.right" timestamp="1650347147839">
+    <state width="1750" height="553" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1650375332270" />
+    <state width="1750" height="553" key="GridCell.Tab.1.right" timestamp="1650375332271">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state width="1601" height="977" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1650347147839" />
+    <state width="1750" height="553" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1650375332271" />
+    <state x="484" y="302" key="IDE.errors.dialog" timestamp="1650374729062">
+      <screen x="0" y="0" width="1792" height="1120" />
+    </state>
+    <state x="484" y="302" key="IDE.errors.dialog/0.0.1792.1120@0.0.1792.1120" timestamp="1650374729062" />
     <state x="397" y="199" key="SettingsEditor" timestamp="1650258862267">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1650258862267" />
-    <state x="496" y="296" key="Vcs.Push.Dialog.v2" timestamp="1650347744279">
+    <state x="496" y="296" key="Vcs.Push.Dialog.v2" timestamp="1650372687779">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="496" y="296" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1650347744279" />
+    <state x="496" y="296" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1650372687779" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/strings/strings.go</url>
+          <line>34</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
