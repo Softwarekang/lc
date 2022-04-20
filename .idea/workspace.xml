@@ -13,7 +13,6 @@
     <list default="true" id="d059f28e-57ac-4d16-ae0b-5cfce9e69bfa" name="Default Changelist" comment="feat(array): twoSum&#10;&#10;添加 twoSum 题解">
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/strings/math.go" beforeDir="false" afterPath="$PROJECT_DIR$/strings/math.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/strings/strings.go" beforeDir="false" afterPath="$PROJECT_DIR$/strings/strings.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,7 +104,8 @@
     <MESSAGE value="feat:(array): findMedianSortedArrays 题解" />
     <MESSAGE value="feat:(array): addTwoNumbers 题解" />
     <MESSAGE value="feat:(array): shortestToChar 题解" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat:(array): shortestToChar 题解" />
+    <MESSAGE value="feat:(array): lengthOfLongestSubstring 题解" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat:(array): lengthOfLongestSubstring 题解" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -119,58 +119,71 @@
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="621" y="360" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1792.1120@0.0.1792.1120" timestamp="1650257558702" />
-    <state width="1750" height="553" key="GridCell.Tab.0.bottom" timestamp="1650375332270">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1750" height="476" key="GridCell.Tab.0.bottom" timestamp="1650419824098">
+      <screen x="0" y="23" width="1792" height="1005" />
     </state>
-    <state width="1750" height="553" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1650375332270" />
-    <state width="1750" height="553" key="GridCell.Tab.0.center" timestamp="1650375332269">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1750" height="553" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1650375742917" />
+    <state width="1750" height="476" key="GridCell.Tab.0.bottom/0.23.1792.1005@0.23.1792.1005" timestamp="1650419824098" />
+    <state width="1750" height="476" key="GridCell.Tab.0.center" timestamp="1650419824098">
+      <screen x="0" y="23" width="1792" height="1005" />
     </state>
-    <state width="1750" height="553" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1650375332269" />
-    <state width="1750" height="553" key="GridCell.Tab.0.left" timestamp="1650375332269">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1750" height="553" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1650375742916" />
+    <state width="1750" height="476" key="GridCell.Tab.0.center/0.23.1792.1005@0.23.1792.1005" timestamp="1650419824098" />
+    <state width="1750" height="476" key="GridCell.Tab.0.left" timestamp="1650419824097">
+      <screen x="0" y="23" width="1792" height="1005" />
     </state>
-    <state width="1750" height="553" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1650375332269" />
-    <state width="1750" height="553" key="GridCell.Tab.0.right" timestamp="1650375332269">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1750" height="553" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1650375742915" />
+    <state width="1750" height="476" key="GridCell.Tab.0.left/0.23.1792.1005@0.23.1792.1005" timestamp="1650419824097" />
+    <state width="1750" height="476" key="GridCell.Tab.0.right" timestamp="1650419824098">
+      <screen x="0" y="23" width="1792" height="1005" />
     </state>
-    <state width="1750" height="553" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1650375332269" />
-    <state width="1750" height="553" key="GridCell.Tab.1.bottom" timestamp="1650375332271">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1750" height="553" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1650375742916" />
+    <state width="1750" height="476" key="GridCell.Tab.0.right/0.23.1792.1005@0.23.1792.1005" timestamp="1650419824098" />
+    <state width="1750" height="476" key="GridCell.Tab.1.bottom" timestamp="1650419824289">
+      <screen x="0" y="23" width="1792" height="1005" />
     </state>
-    <state width="1750" height="553" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1650375332271" />
-    <state width="1750" height="553" key="GridCell.Tab.1.center" timestamp="1650375332271">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1750" height="553" key="GridCell.Tab.1.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1650375742919" />
+    <state width="1750" height="476" key="GridCell.Tab.1.bottom/0.23.1792.1005@0.23.1792.1005" timestamp="1650419824289" />
+    <state width="1750" height="476" key="GridCell.Tab.1.center" timestamp="1650419824289">
+      <screen x="0" y="23" width="1792" height="1005" />
     </state>
-    <state width="1750" height="553" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1650375332271" />
-    <state width="1750" height="553" key="GridCell.Tab.1.left" timestamp="1650375332270">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1750" height="553" key="GridCell.Tab.1.center/0.0.1792.1120@0.0.1792.1120" timestamp="1650375742918" />
+    <state width="1750" height="476" key="GridCell.Tab.1.center/0.23.1792.1005@0.23.1792.1005" timestamp="1650419824289" />
+    <state width="1750" height="476" key="GridCell.Tab.1.left" timestamp="1650419824288">
+      <screen x="0" y="23" width="1792" height="1005" />
     </state>
-    <state width="1750" height="553" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1650375332270" />
-    <state width="1750" height="553" key="GridCell.Tab.1.right" timestamp="1650375332271">
-      <screen x="0" y="0" width="1792" height="1120" />
+    <state width="1750" height="553" key="GridCell.Tab.1.left/0.0.1792.1120@0.0.1792.1120" timestamp="1650375742917" />
+    <state width="1750" height="476" key="GridCell.Tab.1.left/0.23.1792.1005@0.23.1792.1005" timestamp="1650419824288" />
+    <state width="1750" height="476" key="GridCell.Tab.1.right" timestamp="1650419824289">
+      <screen x="0" y="23" width="1792" height="1005" />
     </state>
-    <state width="1750" height="553" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1650375332271" />
+    <state width="1750" height="553" key="GridCell.Tab.1.right/0.0.1792.1120@0.0.1792.1120" timestamp="1650375742918" />
+    <state width="1750" height="476" key="GridCell.Tab.1.right/0.23.1792.1005@0.23.1792.1005" timestamp="1650419824289" />
     <state x="484" y="302" key="IDE.errors.dialog" timestamp="1650374729062">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
     <state x="484" y="302" key="IDE.errors.dialog/0.0.1792.1120@0.0.1792.1120" timestamp="1650374729062" />
-    <state x="397" y="199" key="SettingsEditor" timestamp="1650258862267">
+    <state x="397" y="199" key="SettingsEditor" timestamp="1650416222949">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1650258862267" />
-    <state x="496" y="296" key="Vcs.Push.Dialog.v2" timestamp="1650372687779">
+    <state x="397" y="199" key="SettingsEditor/0.0.1792.1120@0.0.1792.1120" timestamp="1650416222949" />
+    <state x="496" y="296" key="Vcs.Push.Dialog.v2" timestamp="1650375666351">
       <screen x="0" y="0" width="1792" height="1120" />
     </state>
-    <state x="496" y="296" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1650372687779" />
+    <state x="496" y="296" key="Vcs.Push.Dialog.v2/0.0.1792.1120@0.0.1792.1120" timestamp="1650375666351" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/strings/strings.go</url>
+          <line>35</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/strings/strings.go</url>
           <line>34</line>
-          <option name="timeStamp" value="7" />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
