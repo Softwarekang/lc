@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 // twoSum 题目无特殊要求有对应数值，直接返回对应 index 即可
 /*
