@@ -1,5 +1,7 @@
 package main
 
+import "fmt"
+
 // twoSum 题目无特殊要求有对应数值，直接返回对应 index 即可
 /*
 tag:数组、hash
@@ -98,4 +100,35 @@ func addTwoNumbers(l1, l2 *ListNode) (head *ListNode) {
 		tail.Next = &ListNode{Val: carry}
 	}
 	return
+}
+
+func main() {
+	nums := []int{1, 2, 3, 1, 2, 3}
+	fmt.Println(containsNearbyDuplicate(nums, 2))
+}
+
+/*
+tag: 数组、滑动窗口
+*/
+func containsNearbyDuplicate(nums []int, k int) bool {
+	left, right, h := 0, 0, make(map[int]bool)
+	for right < len(nums) {
+		// 维持一个 k 长度的窗口
+		for right-left <= k && right < len(nums) {
+			// 存在则返回 true
+			if h[nums[right]] {
+				return true
+			}
+
+			// 不存在则直接保存当前值
+			h[nums[right]] = true
+			right++
+		}
+
+		// 移除左元素，缩小窗口
+		delete(h, nums[left])
+		left++
+	}
+
+	return false
 }
